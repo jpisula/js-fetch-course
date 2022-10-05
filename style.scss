@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  padding: 25px 12px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 25px 0 15px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+form {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  font-size: 22px;
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  input,
+  select {
+    width: 120px;
+    margin-bottom: 25px;
+  }
+}
+
+#random-number-btn {
+  margin-bottom: 15px;
+}
+
+#divider {
+  margin: 75px 0 25px;
+  width: 100%;
+  text-align: center;
+}

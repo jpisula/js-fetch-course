@@ -1,0 +1,221 @@
+{
+  "success": {
+    "total": 1
+  },
+  "copyright": {
+    "copyright": "2019-21 https://math.tools"
+  },
+  "contents": {
+    "nod": {
+      "category": {
+        "name": "nod",
+        "description": "Number of the day.",
+        "background": ""
+      },
+      "numbers": {
+        "number": "42298",
+        "uuid": "42298",
+        "id": "42298",
+        "names": {
+          "nominal": {
+            "name": "nominal",
+            "description": "Nominal",
+            "value": "42298",
+            "display": "42298"
+          },
+          "cardinal": {
+            "name": "cardinal",
+            "description": "Cardinal",
+            "value": "forty-two thousand two hundred ninety-eight",
+            "display": "forty-two thousand two hundred ninety-eight"
+          },
+          "ordinal": {
+            "name": "ordinal",
+            "description": "Ordinal",
+            "value": "42,298th",
+            "display": "42,298th"
+          },
+          "us_currency": {
+            "name": "us_currency",
+            "description": "This number as US currency",
+            "value": "forty-two thousand two hundred ninety-eight dollars",
+            "display": "forty-two thousand two hundred ninety-eight dollars"
+          }
+        },
+        "bases": {
+          "binary": {
+            "name": "binary",
+            "description": "<a target='_blank' href='http://funtranslations.com/binary' title='Binary Translator'>Base 2 (Binary)</a>",
+            "value": "1010010100111010",
+            "display": "1010010100111010<sub>2</sub>"
+          },
+          "ternary": {
+            "name": "ternary",
+            "description": "Base 3 (Ternary)",
+            "value": "2011000121",
+            "display": "2011000121<sub>3</sub>"
+          },
+          "quaternary": {
+            "name": "quaternary",
+            "description": "Base 4 (Quaternary)",
+            "value": "22110322",
+            "display": "22110322<sub>4</sub>"
+          },
+          "quinary": {
+            "name": "quinary",
+            "description": "Base 5 (Quinary)",
+            "value": "2323143",
+            "display": "2323143<sub>5</sub>"
+          },
+          "senary": {
+            "name": "senary",
+            "description": "Base 6 (Senary)",
+            "value": "523454",
+            "display": "523454<sub>6</sub>"
+          },
+          "octal": {
+            "name": "octal",
+            "description": "Base 8 (Octal)",
+            "value": "122472",
+            "display": "122472<sub>8</sub>"
+          },
+          "duodecimal": {
+            "name": "duodecimal",
+            "description": "Base 12 (Duodecimal)",
+            "value": "2058A",
+            "display": "2058A<sub>12</sub>"
+          },
+          "hexadecimal": {
+            "name": "vexadecimal",
+            "description": "Base 16 (Hexadecimal)",
+            "value": "A53A",
+            "display": "A53A<sub>16</sub>"
+          },
+          "vigesimal": {
+            "name": "vigesimal",
+            "description": "Base 20 (Vigesimal)",
+            "value": "55EI",
+            "display": "55EI<sub>20</sub>"
+          }
+        },
+        "numerals": {
+          "roman": {
+            "name": "roman",
+            "description": "42298 in <a href=\"/numbers/to-roman/\">Roman Numeral</a>",
+            "value": "<span class='u'>X</span><span class='u'>L</span>MMCCXCVIII",
+            "display": "<span class='u'>X</span><span class='u'>L</span>MMCCXCVIII"
+          },
+          "chinese": {
+            "name": "chinese",
+            "description": "42298 in <a href=\"/numbers/to-chinese/\">Chinese Numeral</a>",
+            "value": "&#32902;&#33836;&#36019;&#20191;&#36019;&#20336;&#29590;&#25342;&#25420;",
+            "display": "&#32902;&#33836;&#36019;&#20191;&#36019;&#20336;&#29590;&#25342;&#25420;"
+          },
+          "egyptian": {
+            "name": "egyptian",
+            "description": "42298 in <a href=\"/numbers/to-egyptian/\">Egyptian Numeral</a>",
+            "value": "&#x130b0;&#x131bd;&#x13363;&#x1338e;&#x13401;",
+            "display": "&#x130b0;&#x131bd;&#x13363;&#x1338e;&#x13401;"
+          },
+          "babylonian": {
+            "name": "babylonian",
+            "description": "42298 in <a href=\"/numbers/to-babylonian/\">Babylonian Numeral</a>",
+            "value": "<img src=\"https://math.tools/img/babnumbers/bab_11.gif\" alt=\"11\"> &nbsp; <img src=\"https://math.tools/img/babnumbers/bab_44.gif\" alt=\"44\"> &nbsp; <img src=\"https://math.tools/img/babnumbers/bab_58.gif\" alt=\"58\"> &nbsp; ",
+            "display": "<img src=\"https://math.tools/img/babnumbers/bab_11.gif\" alt=\"11\"> &nbsp; <img src=\"https://math.tools/img/babnumbers/bab_44.gif\" alt=\"44\"> &nbsp; <img src=\"https://math.tools/img/babnumbers/bab_58.gif\" alt=\"58\"> &nbsp; "
+          }
+        },
+        "general-facts": {
+          "odd": {
+            "name": "odd",
+            "description": "Is 42298 an odd number?",
+            "value": false,
+            "display": "42298 is NOT an odd number"
+          },
+          "even": {
+            "name": "even",
+            "description": "Is 42298 an even number?",
+            "value": true,
+            "display": "42298 is  an even number"
+          },
+          "palindrome": {
+            "name": "palindrome",
+            "description": "Is 42298 a palindrome?",
+            "value": false,
+            "display": "42298 is  NOT a palindrome number"
+          },
+          "triangle": {
+            "name": "triangle",
+            "description": "Is 42298 a triangle number?",
+            "value": false,
+            "display": "42298 is  NOT a triangle number"
+          }
+        },
+        "prime-facts": {
+          "prime": {
+            "name": "prime",
+            "description": "Is 42298 a Prime Number?",
+            "value": false,
+            "display": "42298 is NOT a  prime"
+          },
+          "perfect": {
+            "name": "perfect",
+            "description": "Is 42298 a perfect number?",
+            "value": false,
+            "display": "42298 is NOT a perfect number"
+          },
+          "mersenne": {
+            "name": "mersenne",
+            "description": "Is 42298 a Mersenne Prime?",
+            "value": false,
+            "display": "42298 is NOT a Mersenne prime"
+          },
+          "fermat": {
+            "name": "fermat",
+            "description": "Is 42298 a Fermat Prime?",
+            "value": false,
+            "display": "42298 is NOT a Fermat prime"
+          },
+          "fibonacci": {
+            "name": "fibonacci",
+            "description": "Is 42298 a Fibonacci Prime?",
+            "value": false,
+            "display": "42298 is NOT a Fibonacci prime"
+          },
+          "partition": {
+            "name": "partition",
+            "description": "Is 42298 a Partition Prime?",
+            "value": false,
+            "display": "42298 is NOT a Partition prime"
+          },
+          "pell": {
+            "name": "pell",
+            "description": "Is 42298 a Pell Prime?",
+            "value": false,
+            "display": "42298 is NOT a Pell prime"
+          }
+        },
+        "recreational": {
+          "reverse": {
+            "name": "reverse",
+            "description": "Number 42298 reversed",
+            "value": "89224",
+            "display": "89224"
+          },
+          "digitssum": {
+            "name": "digitssum",
+            "description": "Sum of the digits",
+            "value": 25,
+            "display": 25
+          },
+          "noofdigits": {
+            "name": "noofdigits",
+            "description": "No of digits",
+            "value": 5,
+            "display": 5
+          }
+        },
+        "category": "nod"
+      }
+    }
+  }
+}

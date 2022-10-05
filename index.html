@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Zawsze ładujmy style z zewnętrznego pliku -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Poznaj naszą liczbę dnia (<span id="today-date"></span>):</h1>
+    <h2 id="number-of-day"></h2>
+    <p id="nod-fun-fact"></p>
+    <h3>Wylosuj ciekawostkę o innej liczbie:</h3>
+    <button id="random-number-btn">Wylosuj</button>
+    <div id="random-number-result">
+      <!-- <p>Nowa liczba: <span id="new-random-number"></span></p>
+      <p>Ciekawostka: <span id="new-random-fun-fact"></span></p> -->
+    </div>
+
+    <h1 id="divider">ZAPISY LICZBOWE</h1>
+
+    <form id="your-number-form">
+      <label for="your-number">Podaj swoją liczbę w zapisie dziesiętnym:</label>
+      <input type="text" id="your-number" name="yourNumber" />
+
+      <label for="base-choose"
+        >Wybierz w jakim zapisie chcesz zobaczyć podaną liczbę:</label
+      >
+      <select name="baseChose" id="base-choose"></select>
+
+      <input type="submit" value="Pokaż" />
+    </form>
+
+    <div id="number-base-result"></div>
+
+    <!-- można ładować skrypt na różne sposoby: default/async/defer -->
+
+    <!-- default - <script type="text/javascript" src=""></script> -->
+    <!-- czeka aż skrypt się załaduje - blokuje wykonanie strony. Skrypty inline'owe też są default -->
+
+    <!-- <script async type="text/javascript" src=""></script> -->
+    <!-- ładuje skrypt podczas ładowania elementów na stronie. Skrypt ten nie może pływać na DOM i CSSOM - może powodować błędy -->
+
+    <!-- <script defer type="text/javascript" src=""></script> -->
+    <!-- ładuje skrypt po załadowaniu elementów na stronie -->
+
+    <script defer type="module" src="./script/main.js"></script>
+    <script type="module" src="./script/actions.js"></script>
+  </body>
+</html>
