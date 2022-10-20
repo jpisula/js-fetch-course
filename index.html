@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Randomowy kurs</title>
 
-    <!-- Zawsze ładujmy style z zewnętrznego pliku -->
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <h1>Poznaj naszą liczbę dnia (<span id="today-date"></span>):</h1>
@@ -16,39 +15,26 @@
     <p id="nod-fun-fact"></p>
     <h3>Wylosuj ciekawostkę o innej liczbie:</h3>
     <button id="random-number-btn">Wylosuj</button>
-    <div id="random-number-result">
-      <!-- <p>Nowa liczba: <span id="new-random-number"></span></p>
-      <p>Ciekawostka: <span id="new-random-fun-fact"></span></p> -->
-    </div>
+    <div id="random-number-result"></div>
 
-    <h1 id="divider">ZAPISY LICZBOWE</h1>
+    <h2 id="divider">ZAPISY LICZBOWE</h2>
 
     <form id="your-number-form">
       <label for="your-number">Podaj swoją liczbę w zapisie dziesiętnym:</label>
-      <input type="text" id="your-number" name="yourNumber" />
+      <input type="text" name="yourNumber" id="your-number" />
 
       <label for="base-choose"
         >Wybierz w jakim zapisie chcesz zobaczyć podaną liczbę:</label
       >
-      <select name="baseChose" id="base-choose"></select>
+      <select name="baseChoose" id="base-choose"></select>
 
-      <input type="submit" value="Pokaż" />
+      <input type="submit" value="Przelicz" />
     </form>
 
-    <div id="number-base-result"></div>
+    <p id="number-base-result"></p>
 
-    <!-- można ładować skrypt na różne sposoby: default/async/defer -->
-
-    <!-- default - <script type="text/javascript" src=""></script> -->
-    <!-- czeka aż skrypt się załaduje - blokuje wykonanie strony. Skrypty inline'owe też są default -->
-
-    <!-- <script async type="text/javascript" src=""></script> -->
-    <!-- ładuje skrypt podczas ładowania elementów na stronie. Skrypt ten nie może pływać na DOM i CSSOM - może powodować błędy -->
-
-    <!-- <script defer type="text/javascript" src=""></script> -->
-    <!-- ładuje skrypt po załadowaniu elementów na stronie -->
-
-    <script defer type="module" src="./script/main.js"></script>
-    <script type="module" src="./script/actions.js"></script>
+    <script defer type="module" src="scripts/main.js"></script>
+    <script defer type="module" src="scripts/fetches.js"></script>
+    <script defer type="module" src="scripts/actions.js"></script>
   </body>
 </html>

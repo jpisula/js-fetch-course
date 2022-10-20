@@ -53,4 +53,9 @@ form select {
   text-align: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+#number-base-result {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
